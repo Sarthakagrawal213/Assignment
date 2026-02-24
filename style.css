@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+   height: 200vh;
+    background-color: #d7d6d3;
+    overflow-x: hidden;
+}
+#box1{
+    height: 20vh;
+    width: 20vw;
+    background-color: #3498db;
+    position: fixed;
+    top: 17%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    border-radius: 20px;
+}
+#box2{
+    height: 20vh;
+    width: 20vw;
+    background-color: #34db5b;
+    position: fixed;
+    top: 17%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    border-radius: 20px;
+}
+#box3{
+    height: 20vh;
+    width: 20vw;
+    background-color: #db3434;
+    position: fixed;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    border-radius: 20px;
+}
+#box4{
+    height: 20vh;
+    width: 20vw;
+    background-color: #dbd234;
+    position: fixed;
+    top: 83%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: opacity 0.6s ease;
+    border-radius: 20px;
+}
+#main{
+    height: 30vh;
+    width: 100vw;
+    
+    
+    /* color: #130c0c; */
+    background-color: #2e9a60;
+    position: fixed;
+    top: 35%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #130c0c;
+
+    
+}
+#cover{
+    height: 30vh;
+    width: 100vw;
+    
+    
+    /* color: #130c0c; */
+    background-color: #4e4c3e;
+    position: fixed;
+    top: 35%;
+    z-index: 2;
+    /* object-fit: cover; */
+
+    
+}
+#cover img {
+    position: fixed;
+    left: -35%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 5px;
+    font-size: 17px;
+    padding-left: 15px;
+
+}
+.heading{
+    font-size: 60px;
+    
+}
+.head{
+    font-size: 100px;
+}
